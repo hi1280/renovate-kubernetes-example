@@ -2,6 +2,9 @@
   "extends": [
     "config:base"
   ],
+  "kubernetes": {
+    "fileMatch": ["raw/.+\\.yaml"]
+  },
   "packageRules": [
     {
       "matchPackageNames": ["kubernetes/ingress-nginx"],
