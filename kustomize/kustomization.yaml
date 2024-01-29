@@ -3,4 +3,4 @@ kind: Kustomization
 commonLabels:
   app: example
 resources:
-- github.com/kubernetes/ingress-nginx/deploy/static/provider/baremetal?ref=controller-v1.0.5
+- github.com/kubernetes/ingress-nginx/deploy/static/provider/baremetal?ref=controller-v1.9.6
